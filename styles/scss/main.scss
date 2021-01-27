@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Roboto:ital,wght@0,400;0,500;1,300&display=swap');
+
+.img-container {
+    background-color: #0060d0;
+    height: 100vh;
+    position: relative;
+    padding: 50px;
+
+    &__text {
+        color: white;
+        font-family: 'Knewave', cursive;
+        font-size: 50px;
+        font-weight: 500;
+        text-transform: uppercase;
+        display: block;
+    }
+
+    img {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
