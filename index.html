@@ -21,7 +21,99 @@
                 </div>
             </div>
             <div class="col-xl-7 col-lg-7">
-                
+                <div class="survey-form">
+                    <h1 id="title">Survey Form</h1>
+                    <p id="description">Lorem ipsum dolor amit sit.</p>
+
+                    <form id="survey-form" action="" class="form">
+                        <div class="form-item">
+                            <div class="form-item__title">Tell us about you.</div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <label id="name-label" for="" class="box-input" style="margin-top: 15px;">
+                                        <span class="box-input__label">Full Name</span>
+                                        <input id="name" type="text" placeholder="Please enter your full name" required>
+                                    </label>
+                                </div>
+                                <div class="col-6">
+                                    <label id="email-label" for="" class="box-input" style="margin-top: 15px;">
+                                        <span class="box-input__label">Email Address</span>
+                                        <input id="email" type="email" placeholder="Please enter your email" required>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <label id="number-label" for="" class="box-input">
+                                        <span class="box-input__label">Age (optional)</span>
+                                        <input id="number" type="number" placeholder="Please enter your age" min="18" max="60">
+                                    </label>
+                                </div>
+                                <div class="col-6">
+                                    <label for="" class="box-input">
+                                        <span class="box-input__label">Web Experience</span>
+                                        <select name="" id="dropdown">
+                                            <option value="beginner">Beginner</option>
+                                            <option value="intermediate">Intermediate</option>
+                                            <option value="advanced">Advanced</option>
+                                            <option value="expert">Expert</option>
+                                        </select>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-item">
+                            <div class="form-item__title">How Do You Describe Your Overall Satisfaction?</div>
+                            <label for="" class="sf-radio">
+                                <input type="radio" name="group-1" id="" value="1">
+                                I am very satisfied
+                            </label>
+                            <label for="" class="sf-radio">
+                                <input type="radio" name="group-1" id="" value="2">
+                                I am somewhat satisfied
+                            </label>
+                            <label for="" class="sf-radio">
+                                <input type="radio" name="group-1" id="" value="3">
+                                Neutral
+                            </label>
+                            <label for="" class="sf-radio">
+                                <input type="radio" name="group-1" id="" value="4">
+                                I am somewhat dissatisfied
+                            </label>
+                            <label for="" class="sf-radio">
+                                <input type="radio" name="group-1" id="" value="5">
+                                I am very dissatisfied
+                            </label>
+                        </div>
+                        <div class="form-item">
+                            <div class="form-item__title">How Do You Describe Your Overall Satisfaction?</div>
+                            <label for="" class="sf-radio">
+                                <input type="checkbox" name="group-2" id="" value="edge">
+                                Edge
+                            </label>
+                            <label for="" class="sf-radio">
+                                <input type="checkbox" name="group-2" id="" value="chrome">
+                                Chrome
+                            </label>
+                            <label for="" class="sf-radio">
+                                <input type="checkbox" name="group-2" id="" value="firefox">
+                                Firefox
+                            </label>
+                            <label for="" class="sf-radio">
+                                <input type="checkbox" name="group-2" id="" value="safari">
+                                Safari
+                            </label>
+                        </div>
+                        <div class="form-item">
+                            <div class="form-item__title">Tell Us What Can We Do To Improve Your Web Expirience.</div>
+                            <label for=""></label>
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="text-right">
+                            <button id="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
@@ -29,6 +121,7 @@
     <!-- Scripts -->
     <script src="/node_modules/jquery/dist/jquery.min.js"></script>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <script src="/scripts/main.js"></script>
 </body>
 </html>
